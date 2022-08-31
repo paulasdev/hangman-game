@@ -1,31 +1,24 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# **Hangman Game**
 
-Welcome Paula da Silva,
+Hangman is a game to try to guess words related to the English language where the user types a letter to try to form a random word. The user can commit a maximum of 8 errors.
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **August 17, 2021**
+## Live Site
+[Hangman-Game](https://hangman-gamep3.herokuapp.com/)
 
-## Reminders
+## UX 
+### Flowchart
 
-* Your code must be placed in the `run.py` file
-* Your dependencies must be placed in the `requirements.txt` file
-* Do not edit any of the other files or your code may not deploy properly
+### User stories
 
-## Creating the Heroku app
+## Deployment
+The site was deployed to Heroku pages. The steps to deploy are as follows:
 
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
-
-1. `heroku/python`
-2. `heroku/nodejs`
-
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
-
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
-
-Connect your GitHub repository and deploy as normal.
-
-## Constraints
-
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
-
------
-Happy coding!
+- Log in Heroku.
+- Click 'New' and select 'Create new app'
+- Choose a name for the app, region and click on 'Create app'.
+- Only 'Deploy' and 'Settings' are relevant from the menu section. Starting with the 'Settings' first.
+- Now Buildpacks need to be added. They install future dependencies that are needed outside of the requirements file. The first is Python and the second is node.js. Python needs to be selected first and then node.js. Save this selection.
+- Now the 'Deploy' section needs to be selected from the menu and connect it to github.
+- Enter the name of the repository we want to connect it with and click 'Connect'
+- The choice appears now to either deploy using automatic deploys or manual deployment, which deploys the current state of the branch.
+- Click deploy branch.
