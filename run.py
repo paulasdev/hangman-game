@@ -1,6 +1,7 @@
 import random
 import string
 from words import words
+from display import lives_display
 
 
 def start_game():
@@ -31,7 +32,7 @@ def get_valid_word(words):
     """
     Get a random word from words.py that the player has to guess
     """
-    word = random.choice(words)  # randomly chooses something from the list
+    word = random.choice(words)  
     while '-' in word or ' ' in word:
         word = random.choice(words)
 
