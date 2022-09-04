@@ -48,7 +48,7 @@ def hangman():
     alphabet = set(string.ascii_uppercase)
     used_letters = set()
 
-    lives = 6
+    lives = 7
 
     # Getting user input
     while len(word_letters) > 0 and lives > 0:
