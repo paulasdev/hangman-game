@@ -1,22 +1,28 @@
 import random
 import string
-from words import words 
+from words import words
 
-def get_value_word(words):
+# Get username input 
+name = input("Enter your name: ")
+print("Hello " + name + "!")
+
+# function to get random word from list  
+def get_valid_word(words):
     """
-    Get a valid word from the list
+    Get a random word from words.py that the player has to guess
     """
-    word = random.choice(words)
+    word = random.choice(words)  # randomly chooses something from the list
     while '-' in word or ' ' in word:
         word = random.choice(words)
 
     return word.upper()
 
+
 def guess():
     """
     Track the correctly word the user input
     """
-    word = get_value_word(words)
+    word = get_valid_word(words)
     word_letters = set(word)
     alphabet = set(string.ascii_uppercase)
     used_letters = set()
@@ -54,4 +60,5 @@ def guess():
     else:
         print('You guessed the word', word, '!!')
 
-guess()
+if __name__ == '__main__':
+    guess()
