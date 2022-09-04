@@ -48,7 +48,7 @@ def hangman():
     alphabet = set(string.ascii_uppercase)
     used_letters = set()
 
-    lives = 8
+    lives = 6
 
     # Getting user input
     while len(word_letters) > 0 and lives > 0:
@@ -57,6 +57,7 @@ def hangman():
         print('You have', lives, 'lives left and you have used these letters: ', ' '.join(used_letters))
 
         word_list = [letter if letter in used_letters else '-' for letter in word]
+        print(lives_display[lives])
         print('Current word: ', ' '.join(word_list))
 
         user_letter = input('Guess a letter:\n').upper()
@@ -64,7 +65,7 @@ def hangman():
             used_letters.add(user_letter)
             if user_letter in word_letters:
                 word_letters.remove(user_letter)
-                print('')
+            
 
             else: 
                 lives = lives - 1 
@@ -77,9 +78,32 @@ def hangman():
             print('\nThat is not a valid letter.')
         
     if lives == 0:
+        print(lives_display[lives])
         print('You died, sorry. The word was', word)
+        play_again()
     else:
         print('You guessed the word', word, '!!')
+        play_again()
 
-if __name__ == '__main__':
+
+
+def play_again():
+    "Option to start the game"
+    play_again = False
+
+    while not play_again:
+        restart = input("Would you like to play again? (Y/N)\n").upper()
+        if restart == "Y":
+            play_again = True
+            hangman()
+        
+        elif restart == "N":
+             play_again = True
+             print("Goodbye!")
+             start_game()
+        else:
+            print("Please select the right option.")
+
+if __name__ == "__main__":
     start_game()
+
