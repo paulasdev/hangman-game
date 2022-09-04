@@ -30,7 +30,7 @@ def start_game():
 # function to get random word from list  
 def get_valid_word(words):
     """
-    Get a random word from words.py that the player has to guess
+    Get a random word from words.py
     """
     word = random.choice(words)  
     while '-' in word or ' ' in word:
