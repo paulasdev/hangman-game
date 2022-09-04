@@ -39,7 +39,7 @@ lives_display = {
               |
     ===========
     ''',
-       # display: head, torso, 1 arm
+    # display: head, torso, 1 arm
     3:
     '''
         +-----+
