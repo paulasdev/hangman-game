@@ -6,17 +6,11 @@ from display import lives_display
 
 def start_game():
     """Start the game and input username"""
-    print(""" 
-            88        88                                                                                     
-            88        88                                                                                     
-            88        88                                                                                     
-            88aaaaaaaa88  ,adPPYYba,  8b,dPPYba,    ,adPPYb,d8  88,dPYba,,adPYba,   ,adPPYYba,  8b,dPPYba,   
-            88""""""""88  ""     `Y8  88P'   `"8a  a8"    `Y88  88P'   "88"    "8a  ""     `Y8  88P'   `"8a  
-            88        88  ,adPPPPP88  88       88  8b       88  88      88      88  ,adPPPPP88  88       88  
-            88        88  88,    ,88  88       88  "8a,   ,d88  88      88      88  88,    ,88  88       88  
-            88        88  `"8bbdP"Y8  88       88   `"YbbdP"Y8  88      88      88  `"8bbdP"Y8  88       88  
-                                                    aa,    ,88                                               
-                                                    "Y8bbdP"                                                             
+    print("""
+             _  _  __  __  _  __ __ __  __  __  _  
+            | || |/  \|  \| |/ _]  V  |/  \|  \| | 
+            | >< | /\ | | ' | [/\ \_/ | /\ | | ' | 
+            |_||_|_||_|_|\__|\__/_| |_|_||_|_|\__|       
     """)
     name = input('Enter your name: \n')
     print(f'Hello, {name}!')
@@ -48,7 +42,7 @@ def hangman():
     alphabet = set(string.ascii_uppercase)
     used_letters = set()
 
-    lives = 7
+    lives = 6
 
     # Getting user input
     while len(word_letters) > 0 and lives > 0:
@@ -106,4 +100,3 @@ def play_again():
 
 if __name__ == "__main__":
     start_game()
-

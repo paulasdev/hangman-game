@@ -1,19 +1,7 @@
 lives_display = {
-  # display: empty
-    0:                                                       
-    '''
-        +-----+
-              |
-              |
-              |
-              |
-              |
-              |
-              |
-    ===========
-    ''',
+
     # display: empty
-    1:                                                       
+    0:
     '''
         +-----+
         |     |
@@ -26,7 +14,8 @@ lives_display = {
     ===========
     ''',
      # display: head
-    2: '''
+    1: 
+    '''
         +-----+
         |     |
         o     |
@@ -38,7 +27,7 @@ lives_display = {
     ===========
     ''',
       # display: head, torso
-    3: 
+      2: 
     '''
         +-----+
         |     |
@@ -51,7 +40,7 @@ lives_display = {
     ===========
     ''',
        # display: head, torso, 1 arm
-    4:
+    3:
     '''
         +-----+
         |     |
@@ -64,7 +53,7 @@ lives_display = {
     ===========
     ''',
     # display: head, torso, 2 arms
-    5:
+    4:
     '''
         +-----+
         |     |
@@ -101,5 +90,5 @@ lives_display = {
               |
     ===========
     '''   
- 
+
 } 
