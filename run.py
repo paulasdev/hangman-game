@@ -2,9 +2,29 @@ import random
 import string
 from words import words
 
-# Get username input 
-name = input("Enter your name: ")
-print("Hello " + name + "!")
+
+def start_game():
+    """Start the game and input username"""
+    print(""" 
+            88        88                                                                                     
+            88        88                                                                                     
+            88        88                                                                                     
+            88aaaaaaaa88  ,adPPYYba,  8b,dPPYba,    ,adPPYb,d8  88,dPYba,,adPYba,   ,adPPYYba,  8b,dPPYba,   
+            88""""""""88  ""     `Y8  88P'   `"8a  a8"    `Y88  88P'   "88"    "8a  ""     `Y8  88P'   `"8a  
+            88        88  ,adPPPPP88  88       88  8b       88  88      88      88  ,adPPPPP88  88       88  
+            88        88  88,    ,88  88       88  "8a,   ,d88  88      88      88  88,    ,88  88       88  
+            88        88  `"8bbdP"Y8  88       88   `"YbbdP"Y8  88      88      88  `"8bbdP"Y8  88       88  
+                                                    aa,    ,88                                               
+                                                    "Y8bbdP"                                                             
+    """)
+    name = input('Enter your name: \n')
+    print(f'Hello, {name}!')
+    if input('Would you like to play Hangman? (Y)').upper() == "Y":
+        hangman()
+
+    else:
+        print('Please try again.')
+        start_game()
 
 # function to get random word from list  
 def get_valid_word(words):
@@ -18,7 +38,7 @@ def get_valid_word(words):
     return word.upper()
 
 
-def guess():
+def hangman():
     """
     Track the correctly word the user input
     """
@@ -61,4 +81,4 @@ def guess():
         print('You guessed the word', word, '!!')
 
 if __name__ == '__main__':
-    guess()
+    start_game()
