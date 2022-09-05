@@ -2,13 +2,63 @@
 
 Hangman is a game to try to guess words related to the English language where the user types a letter to try to form a random word. The user can commit a maximum of 8 errors.
 
-## Live Site
 [Hangman-Game](https://hangman-gamep3.herokuapp.com/)
 
-## UX 
-### Flowchart
+# Table of Contents
+## UX
+- User Goals
+- User Stories
+- Site Owners Goals
+- User Requirements and Expectations
+- Requirements
+- Expectations
+## How to Play
+## Design
+- Fonts
+- Colours
+- Images
+- Structure
+## Wireframes
+## Features
+- Existing Features
+- Features to be implemented
+## Technologies used
+- Languages
+- Libraries and Frameworks
+- Tools
+## Testing
+- UX Testing
+- Code Validation
+- Bugs
+- Unfixed Bugs
+## Deployment
+## Credits
+
+# UX 
+### User Goal
+
 
 ### User stories
+
+### Site Owners Goals
+
+# User Requirements ans Expectations
+
+### Requirements
+
+### Expectations
+
+## How to Play
+
+## Design 
+
+## Wireframes
+
+## Features
+
+## Technologies used
+
+## Testing
 
 ## Deployment
 The site was deployed to Heroku pages. The steps to deploy are as follows:
@@ -22,3 +72,5 @@ The site was deployed to Heroku pages. The steps to deploy are as follows:
 - Enter the name of the repository we want to connect it with and click 'Connect'
 - The choice appears now to either deploy using automatic deploys or manual deployment, which deploys the current state of the branch.
 - Click deploy branch.
+
+## Credits
