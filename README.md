@@ -47,13 +47,16 @@ Hangman is a game to try to guess words related to the English language where th
 - Show the correct word
 
 ### Site Owners Goals
-
-# User Requirements ans Expectations
-
-### Requirements
 - Ensuring that game functions are working perfectly
 
 ## How to Play
+- The user enters his name and the option if he wants to play.
+- A random word is selected and the user can type a letter.
+- The user is able to  see how many lives they have. The user need to typing a letter, if it is correct it will appear in the word or else it will take a life and a frame from the hangman.
+- All typed letters are shown below the lives.
+- The user continues typing until guess the correct word and/or run out of life.
+- If the user gets the right word, he/she will receive a Congratulations message. If the user doesn't guess the correct word, it will be shown at the end.
+- The user can choose to play again and then a new random word is generated otherwise the user is directed to the home screen to enter his name again.
 
 ## Design 
 
