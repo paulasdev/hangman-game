@@ -37,16 +37,21 @@ Hangman is a game to try to guess words related to the English language where th
 # UX 
 ### User Goal
 
+- Want to easily navigate through the game with simple inputs.
+
 
 ### User stories
+- Be able to enter my name
+- Show me the wrong words I typed
+- Show how many lives are left
+- Show the correct word
 
 ### Site Owners Goals
 
 # User Requirements ans Expectations
 
 ### Requirements
-
-### Expectations
+- Ensuring that game functions are working perfectly
 
 ## How to Play
 
@@ -57,6 +62,14 @@ Hangman is a game to try to guess words related to the English language where th
 ## Features
 
 ## Technologies used
+- [Git](https://git-scm.com/)
+    was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+- [GitHub](https://github.com/)
+    is used to store the projects code after being pushed from Git.
+- [Lucidchart](https://www.lucidchart.com/)
+    is used to create and store flowcharts.
+- [Heroku](https://www.heroku.com) 
+    is used to build, run and scale applications in a similar manner across most languages.
 
 ## Testing
 
