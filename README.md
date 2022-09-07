@@ -10,12 +10,11 @@ Hangman is a game to try to guess words related to the English language where th
     * [User Stories](#user-stories "User Stories")
     * [Site Owners Goals](#site-owners-goals)
     * [How to Play](#how-to-play)
-    * [Design Choices](#design-choices)
+    * [Design](#design)
         * [Fonts](#fonts)
         * [Colours](#colours)
         * [Images](#images)
         * [Structure](#structure)
-    * [Wireframes](#wireframes)
     * [Features](#features)
         * [Existing Features](#existing-features)
         * [Features to be implemented](#features-to-be-implemented)
@@ -55,6 +54,8 @@ Hangman is a game to try to guess words related to the English language where th
 - The user can choose to play again and then a new random word is generated otherwise the user is directed to the home screen to enter his name again.
 
 ## Design 
+### Flowchart
+![Flowchart](images/lucid.png)
 
 ## Wireframes
 
