@@ -5,35 +5,31 @@ Hangman is a game to try to guess words related to the English language where th
 [Hangman-Game](https://hangman-gamep3.herokuapp.com/)
 
 # Table of Contents
-## UX
-- User Goals
-- User Stories
-- Site Owners Goals
-- User Requirements and Expectations
-- Requirements
-- Expectations
-## How to Play
-## Design
-- Fonts
-- Colours
-- Images
-- Structure
-## Wireframes
-## Features
-- Existing Features
-- Features to be implemented
-## Technologies used
-- Languages
-- Libraries and Frameworks
-- Tools
-## Testing
-- UX Testing
-- Code Validation
-- Bugs
-- Unfixed Bugs
-## Deployment
-## Credits
-
+* [UX](#ux "UX")
+    * [User Goals](#user-goals "User Goals")
+    * [User Stories](#user-stories "User Stories")
+    * [Site Owners Goals](#site-owners-goals)
+    * [How to Play](#how-to-play)
+    * [Design Choices](#design-choices)
+        * [Fonts](#fonts)
+        * [Colours](#colours)
+        * [Images](#images)
+        * [Structure](#structure)
+    * [Wireframes](#wireframes)
+    * [Features](#features)
+        * [Existing Features](#existing-features)
+        * [Features to be implemented](#features-to-be-implemented)
+    * [Technologies used](#technologies-used)
+        * [Languages](#languages)
+        * [Libraries and Frameworks](#libraries-and-frameworks)
+        * [Tools](#tools)
+    * [Testing](#testing)
+        * [UX Testing](#ux-testing)
+        * [Code Validation](#code-validation)
+        * [Bugs](#bugs)
+        * [Unfixed Bugs](#unfixed-bugs)
+    * [Deployment](#deployment)
+    * [Credits](#credits)
 # UX 
 ### User Goal
 
