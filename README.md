@@ -15,6 +15,7 @@ Hangman is a game to try to guess words related to the English language where th
         * [Colours](#colours)
         * [Images](#images)
         * [Structure](#structure)
+    * [Features](#Features)
     * [Technologies used](#technologies-used)
         * [Languages](#languages)
         * [Libraries and Frameworks](#libraries-and-frameworks)
@@ -62,6 +63,19 @@ I used the standard monospace font provided by Code Institute template
 
 ### Images
 I used [patorjk.com](https://patorjk.com/software/taag/#p=display&f=Stforek&t=Hangman) for create the logo
+
+## Features
+Home screem - message if user would like to play.
+![Home-Screem](doc/images/1.png)
+
+Enter your username.
+![Home-Screem](doc/images/2.png)
+The game starts, a random word is generated and the user has to type the letters until he guesses the correct word. The user sees the name and the number of lives he has left
+![Home-Screem](doc/images/3.png)
+All letters already used are displayed on the screen
+![Home-Screem](doc/images/4.png)
+At the end of the game, the correct word is shown and the user can choose whether or not to play again.
+![Home-Screem](doc/images/5.png)
 
 ## Technologies used
 ## Languages
