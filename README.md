@@ -55,7 +55,7 @@ Hangman is a game to try to guess words related to the English language where th
 
 ## Design 
 ### Flowchart
-![Flowchart](images/lucid.png)
+![Flowchart](doc/images/lucid.png)
 
 ## Wireframes
 
