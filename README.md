@@ -15,9 +15,6 @@ Hangman is a game to try to guess words related to the English language where th
         * [Colours](#colours)
         * [Images](#images)
         * [Structure](#structure)
-    * [Features](#features)
-        * [Existing Features](#existing-features)
-        * [Features to be implemented](#features-to-be-implemented)
     * [Technologies used](#technologies-used)
         * [Languages](#languages)
         * [Libraries and Frameworks](#libraries-and-frameworks)
@@ -54,14 +51,18 @@ Hangman is a game to try to guess words related to the English language where th
 - The user can choose to play again and then a new random word is generated otherwise the user is directed to the home screen to enter his name again.
 
 ## Design 
+
+### Fonts
+I used the standard monospace font provided by Code Institute template
+
+### colours
+
 ### Flowchart
 ![Flowchart](doc/images/lucid.png)
 
-## Wireframes
-
-## Features
 
 ## Technologies used
+- [Python](https://pythontutor.com/)
 - [Git](https://git-scm.com/)
     was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 - [GitHub](https://github.com/)
