@@ -55,11 +55,13 @@ Hangman is a game to try to guess words related to the English language where th
 ### Fonts
 I used the standard monospace font provided by Code Institute template
 
-### colours
-
+### Colors
+![Color_scheme](doc/images/color_scheme.png)
 ### Flowchart
 ![Flowchart](doc/images/lucid.png)
 
+### Images
+I used [patorjk.com](https://patorjk.com/software/taag/#p=display&f=Stforek&t=Hangman) for create the logo
 
 ## Technologies used
 - [Python](https://pythontutor.com/)
