@@ -64,15 +64,30 @@ I used the standard monospace font provided by Code Institute template
 I used [patorjk.com](https://patorjk.com/software/taag/#p=display&f=Stforek&t=Hangman) for create the logo
 
 ## Technologies used
-- [Python](https://pythontutor.com/)
-- [Git](https://git-scm.com/)
-    was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-- [GitHub](https://github.com/)
-    is used to store the projects code after being pushed from Git.
-- [Lucidchart](https://www.lucidchart.com/)
-    is used to create and store flowcharts.
-- [Heroku](https://www.heroku.com) 
-    is used to build, run and scale applications in a similar manner across most languages.
+## Languages
+* [Python](https://en.wikipedia.org/wiki/Python_(programming_language) "Python") for the game code
+* [HTML](https://en.wikipedia.org/wiki/HTML5 "HTML") for the structure of the site
+* [CSS](https://en.wikipedia.org/wiki/CSS "CSS") for the design of the site
+* [Markdown](https://en.wikipedia.org/wiki/Markdown) for the content in my README file
+
+## Libraries and Frameworks
+
+* For selecting a random card from the deck [python random library](https://docs.python.org/3/library/random.html?#module-random ".py random")
+
+
+## Tools
+
+* For construction [Gitpod](https://www.gitpod.io/ "Gitpod")
+* For wireframes [Balsamic](https://balsamiq.com/wireframes/ "Balsamic")
+* For python validation [PEP8 online](http://pep8online.com/ "PEP8")
+* For HTML validation [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML")
+* For CSS validation [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS")
+* For python code validation [PEP8 online](http://pep8online.com/ "PEP8")
+* For general code queries [W3Schools](https://www.w3schools.com/ "W3Schools")
+* For python queries [python](https://www.python.org/ "py")
+* For spell checking [Grammarly](https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen/related?hl=en "Grammarly")
+* For the API [Google Cloud Platform](https://en.wikipedia.org/wiki/Google_Cloud_Platform "GCP") 
+
 
 ## Testing
 
@@ -80,7 +95,7 @@ I used [patorjk.com](https://patorjk.com/software/taag/#p=display&f=Stforek&t=Ha
 The site was deployed to Heroku pages. The steps to deploy are as follows:
 
 - Log in Heroku.
-- Click 'New' and select 'Create new app'
+- Click **New** and select 'Create new app'
 - Choose a name for the app, region and click on 'Create app'.
 - Only 'Deploy' and 'Settings' are relevant from the menu section. Starting with the 'Settings' first.
 - Now Buildpacks need to be added. They install future dependencies that are needed outside of the requirements file. The first is Python and the second is node.js. Python needs to be selected first and then node.js. Save this selection.

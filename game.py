@@ -26,12 +26,9 @@ def start_game():
 def username ():
     name = input('Enter your name: \n')
     print(f'Hello, {name}!')
-    # if input('Would you like to play Hangman? (Y)').upper() == "Y":
     hangman()
 
-    # else:
-    #     print('Please try again.')
-    #     start_game()
+
 
 # function to get random word from list  
 def get_valid_word(words):
