@@ -1,8 +1,10 @@
 # **Hangman Game**
 
+![I-am-Responsive](/doc/images/responsive.png)
+
 Hangman is a game to try to guess words related to the English language where the user types a letter to try to form a random word. The user can commit a maximum of 8 errors.
 
-[Hangman-Game](https://hangman-gamep3.herokuapp.com/)
+The site was deployed via Heroku. Here is the live link: [Hangman-Game](https://hangman-gamep3.herokuapp.com/)
 
 # Table of Contents
 * [UX](#ux "UX")
@@ -21,12 +23,8 @@ Hangman is a game to try to guess words related to the English language where th
         * [Libraries and Frameworks](#libraries-and-frameworks)
         * [Tools](#tools)
     * [Testing](#testing)
-        * [UX Testing](#ux-testing)
-        * [Code Validation](#code-validation)
-        * [Bugs](#bugs)
-        * [Unfixed Bugs](#unfixed-bugs)
     * [Deployment](#deployment)
-    * [Credits](#credits)
+    * [Acknowledgements](#Acknowledgements)
 # UX 
 ### User Goal
 
@@ -57,9 +55,9 @@ Hangman is a game to try to guess words related to the English language where th
 I used the standard monospace font provided by Code Institute template
 
 ### Colors
-![Color_scheme](doc/images/color_scheme.png)
+![Color_scheme](/doc/images/color_scheme.png)
 ### Flowchart
-![Flowchart](doc/images/lucid.png)
+![Flowchart](/doc/images/lucid.png)
 
 ### Images
 I used [patorjk.com](https://patorjk.com/software/taag/#p=display&f=Stforek&t=Hangman) for create the logo
@@ -69,13 +67,13 @@ Home screem - message if user would like to play.
 ![Home-Screem](doc/images/1.png)
 
 Enter your username.
-![Home-Screem](doc/images/2.png)
+![Home-Screem](/doc/images/2.png)
 The game starts, a random word is generated and the user has to type the letters until he guesses the correct word. The user sees the name and the number of lives he has left
-![Home-Screem](doc/images/3.png)
+![Home-Screem](/doc/images/3.png)
 All letters already used are displayed on the screen
-![Home-Screem](doc/images/4.png)
+![Home-Screem](/doc/images/4.png)
 At the end of the game, the correct word is shown and the user can choose whether or not to play again.
-![Home-Screem](doc/images/5.png)
+![Home-Screem](/doc/images/5.png)
 
 ## Technologies used
 ## Languages
@@ -104,6 +102,8 @@ At the end of the game, the correct word is shown and the user can choose whethe
 
 
 ## Testing
+Using the [PEP8](http://pep8online.com/) code validator for the Python code,
+![pep8](/doc/images/Pep8.png)
 
 ## Deployment
 The site was deployed to Heroku pages. The steps to deploy are as follows:
@@ -118,4 +118,5 @@ The site was deployed to Heroku pages. The steps to deploy are as follows:
 - The choice appears now to either deploy using automatic deploys or manual deployment, which deploys the current state of the branch.
 - Click deploy branch.
 
-## Credits
+## Acknowledgements
+This is a game for Project 3 for the Full Stack Software Developer program with Code Institute.

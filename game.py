@@ -3,6 +3,7 @@ import string
 from words import words
 from display import lives_display
 
+
 def start_game():
     
     """
@@ -15,7 +16,6 @@ def start_game():
             |_||_|_||_|_|\__|\__/_| |_|_||_|_|\__|       
     """)
 
-
     if input('Would you like to play Hangman? (Y)').upper() == "Y":
         username()
 
@@ -24,11 +24,10 @@ def start_game():
         start_game()
 
 def username ():
+
     name = input('Enter your name: \n')
     print(f'Hello, {name}!')
     hangman()
-
-
 
 # function to get random word from list  
 def get_valid_word(words):
@@ -42,7 +41,6 @@ def get_valid_word(words):
         word = random.choice(words)
 
     return word.upper()
-
 
 def hangman():
 
@@ -62,7 +60,6 @@ def hangman():
      
 
         print('You have', lives, 'lives left and you have used these letters: ', ' '.join(used_letters))
-
         word_list = [letter if letter in used_letters else '-' for letter in word]
         print(lives_display[lives])
         print('Current word: ', ' '.join(word_list))
@@ -73,7 +70,6 @@ def hangman():
             if user_letter in word_letters:
                 word_letters.remove(user_letter)
             
-
             else: 
                 lives = lives - 1 
                 print('\nYour Letter,', user_letter,'is not in word.')
@@ -92,8 +88,6 @@ def hangman():
         print('You guessed the word', word, '!!')
         play_again()
 
-
-
 def play_again():
     "Option to start the game"
     play_again = False
@@ -102,11 +96,15 @@ def play_again():
         restart = input("Would you like to play again? (Y/N)\n").upper()
         if restart == "Y":
             play_again = True
+        
             hangman()
         
         elif restart == "N":
              play_again = True
+        
              print("Goodbye!")
+        
              start_game()
+        
         else:
             print("Please select the right option.")
