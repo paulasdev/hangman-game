@@ -4,7 +4,7 @@
 
 Hangman is a game to try to guess words related to the English language where the user types a letter to try to form a random word. The user can commit a maximum of 8 errors.
 
-The site was deployed via Heroku. Here is the live link: [Hangman-Game](https://hangman-gamep3.herokuapp.com/)
+The site was deployed via Heroku: [Hangman-Game](https://hangman-gamep3.herokuapp.com/)
 
 # Table of Contents
 * [UX](#ux "UX")
